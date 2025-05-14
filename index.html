@@ -1,20 +1,269 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/SAMA/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SAMA - Sistema de Armado y Automatización Médica</title>
-    <meta name="description" content="SAMA - Solución integral para la automatización de facturación médica y gestión de IPS">
+  <meta name="description" content="SAMA - Sistema de Armado y Automatización Médica. Optimiza la facturación de las IPS automatizando el armado y radicación de cuentas.">
+  <meta name="keywords" content="SAMA, automatización médica, facturación IPS, gestión médica, ERP médico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script type="module" crossorigin src="/SAMA/assets/index-D4_keE3k.js"></script>
-    <link rel="stylesheet" crossorigin href="/SAMA/assets/index-BxjfsevL.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="module" crossorigin src="/SAMA/assets/index-BMENPDqd.js"></script>
+    <link rel="stylesheet" crossorigin href="/SAMA/assets/index-qL-nchZb.css">
   </head>
   <body>
-    <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <div id="particles-js"></div>
+  
+  <header class="header">
+    <div class="logo">
+      <a href="#"><img src="/SAMA/img/logo.png" alt="Logo SAMA"></a>
+    </div>
+    <button class="menu-toggle">
+      <span class="hamburger">☰</span>
+      <span class="close-icon">×</span>
+    </button>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#caracteristicas">Características</a>
+      <a href="#ventajas">Ventajas</a>
+      <a href="#despliegue">Despliegue</a>
+      <button class="btn-empezar"><a href="/SAMA/formulario/index.html">Empezar Ahora</a></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero-wrapper">
+      <div class="hero-container">
+        <div class="hero">
+          <div class="hero-content">
+            <div class="hero-text-content" data-aos="fade-up" data-aos-duration="800" data-aos-offset="20">
+              <h1 class="hero-title">
+                <span class="hero-title-main" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">SAMA</span>
+                <span class="hero-title-highlight" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">Sistema de Armado y Automatización Médica</span>
+              </h1>
+              <div class="hero-description">
+                <p class="hero-text">
+                  Revoluciona la gestión documental en el sector salud con nuestra solución integral de automatización.
+                </p>
+                <div class="compact-stats-grid">
+                  <div class="compact-stat">
+                    <div class="stat-icon-small">
+                      <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="stat-info">
+                      <h4>Eficiencia Operativa</h4>
+                      <p>Automatización del 100% de procesos documentales</p>
+                    </div>
+                  </div>
+                  <div class="compact-stat">
+                    <div class="stat-icon-small">
+                      <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                      <h4>Cumplimiento Legal</h4>
+                      <p>Resolución 2284/2023</p>
+                    </div>
+                  </div>
+                  <div class="compact-stat">
+                    <div class="stat-icon-small">
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="stat-info">
+                      <h4>Reducción de Errores</h4>
+                      <p>Hasta 95% menos glosas y devoluciones</p>
+                    </div>
+                  </div>
+                  <div class="compact-stat">
+                    <div class="stat-icon-small">
+                      <i class="fas fa-plug"></i>
+                    </div>
+                    <div class="stat-info">
+                      <h4>Integración Total</h4>
+                      <p>Compatible con cualquier sistema IPS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-actions">
+                <button class="cta-button primary">Solicitar Demo</button>
+                <button class="cta-button secondary ver-video">Ver Video <i class="fas fa-play-circle"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+  
+
+    <section id="caracteristicas" class="features">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Características Generales</h2>
+        <p class="section-subtitle" data-aos="fade-up">
+          Descubre las funcionalidades que hacen de SAMA la solución perfecta para la gestión de cuentas médicas
+        </p>
+        <div class="feature-grid">
+          <div class="feature-card" data-aos="fade-up" data-aos-duration="600" data-aos-offset="10">
+            <i class="fas fa-robot feature-icon"></i>
+            <div class="feature-content">
+              <h3>Automatización Inteligente</h3>
+              <p>Automatización de documentos mediante API, optimizando tiempo y recursos.</p>
+            </div>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" data-aos-offset="10">
+            <i class="fas fa-sync feature-icon"></i>
+            <div class="feature-content">
+              <h3>Compatibilidad Total</h3>
+              <p>Compatibilidad con cualquier ERP y configuración de soportes por unidad funcional.</p>
+            </div>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" data-aos-offset="10">
+            <i class="fas fa-user-shield feature-icon"></i>
+            <div class="feature-content">
+              <h3>Gestión Centralizada</h3>
+              <p>Gestión centralizada de contratos con personalización por aseguradora.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ventajas" class="benefits-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Ventajas del Sistema</h2>
+        <p class="section-subtitle" data-aos="fade-up">
+          SAMA ofrece beneficios tangibles que mejoran la eficiencia y rentabilidad de su institución
+        </p>
+        <div class="benefits-grid">
+          <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-chart-line"></i>
+            <h3>Reducción de Errores</h3>
+            <p>Reducción de devoluciones y glosas al cumplir con requisitos ERP en un 95%.</p>
+          </div>
+          <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-clock"></i>
+            <h3>Mejora en Tiempos</h3>
+            <p>Mejora en los tiempos de radicación de la factura y automatización del proceso.</p>
+          </div>
+          <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-coins"></i>
+            <h3>Optimización de Costos</h3>
+            <p>Optimiza los costos operativos de la organización, incrementando su eficiencia.</p>
+          </div>
+          <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3>Mejor Flujo de Caja</h3>
+            <p>Favorece el fortalecimiento del flujo de caja, mejorando la liquidez financiera.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="despliegue" class="deployment-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Despliegue del Sistema</h2>
+        <p class="section-subtitle" data-aos="fade-up">
+          Proceso de implementación estructurado y eficiente
+        </p>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up" data-aos-offset="10" data-aos-duration="500">
+            <div class="timeline-icon">
+              <i class="fas fa-cog"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Implementación Inicial</h4>
+              <p>Implementación del aplicativo y creación de unidades funcionales.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-offset="10" data-aos-duration="500">
+            <div class="timeline-icon">
+              <i class="fas fa-sync"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Automatización e Integración</h4>
+              <p>Automatización de soportes con integración al Sistema de Información.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-icon">
+              <i class="fas fa-users-cog"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Configuración y Gestión</h4>
+              <p>Gestión de clientes y contratos: parametrización, sincronización y configuración.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <h4>Capacitación y Lanzamiento</h4>
+              <p>Capacitación final y despliegue en 2 a 3 semanas según cronograma acordado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+          <h2>¿Listo para optimizar su gestión médica?</h2>
+          <p>Únase a las instituciones que ya están transformando su proceso de facturación con SAMA</p>
+          <button class="cta-button">Solicitar Demo</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3>Sobre SAMA</h3>
+          <p>
+            Sistema de Armado y Automatización Médica que optimiza la facturación 
+            de las IPS, mejorando la eficiencia operativa y fortaleciendo la 
+            gestión financiera.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <h3>Contacto</h3>
+          <p><i class="fas fa-phone"></i> +57 (XXX) XXX-XXXX</p>
+          <p><i class="fas fa-envelope"></i> contacto@sama.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Ciudad, País</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 SAMA. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Modal -->
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Video Demostrativo</h3>
+        <button class="close-modal">×</button>
+      </div>
+      <div class="modal-body">
+        <iframe src="" title="Video demostrativo de SAMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
   </body>
 </html>
